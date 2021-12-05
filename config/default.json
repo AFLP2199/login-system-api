@@ -1,0 +1,7 @@
+{
+    "jwtPrivateKey": "keyProtector",
+    "db": "mongodb://localhost/login-system",
+    "port": "3200",
+    "requiresAuth": true
+}
+  
