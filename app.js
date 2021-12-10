@@ -5,6 +5,7 @@ const app = express();
 // Startup Requirements
 require("express-async-errors");
 require("./startup/cors")(app);
+require("./startup/rateLimiter")(app);
 require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/config")();
