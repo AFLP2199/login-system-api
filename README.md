@@ -43,15 +43,22 @@ API Endpoint for the authentication is
 /api/auth
 ```
 
-You can register a user in the users endpoint with postman by submitting a request, fill the body with the next schema:
+You can register a user through the users endpoint with postman by submitting a request, fill the body with the next schema:
 
--   **username:** minimum of 5 characters
--   **email:** this has to be a valid email
--   **password:** minimum of 5 characters
-
+```sh
+{
+  "username": *minimum of 5 characters
+  "email": *this has to be a valid email
+  "password": *minimum of 5 characters
+}
+```
 Otherwise, if you want to test the login in the authentication endpoint fill the body with the next schema:
 
--   **email:** this has to be a valid email
--   **password:** minimum of 5 characters
+```sh
+{
+  "email": *this has to be a valid email
+  "password": *minimum of 5 characters
+}
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
